@@ -30,6 +30,11 @@ a{
    cursor: pointer;
    color: rgb(102, 98, 98);
 }
+.divider{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 
 .nav-items{
     width: 60%;
@@ -54,6 +59,10 @@ a{
         font-size: 2.75rem;
         text-align: center;
         
+    }
+    .divider{
+        font-size: .6rem;
+        margin-bottom: .5rem;
     }
     .main-nav ul{
         flex-direction: column;
@@ -194,7 +203,7 @@ position: relative;
 .btn-download-container img{
     width: 100%;
     
-    max-height: 630px;
+    max-height: 665px;
 }
 .btn-download{
         width: 100px;
@@ -315,6 +324,7 @@ text-align: right;
 .card{
     margin-bottom: 1rem;
     display: flex;
+    width: 100%;
 }
 .card h4{
     margin-bottom: .5rem;
@@ -323,6 +333,9 @@ text-align: right;
    .card-container{
        display: inline-block;
        text-align: center;
+   }
+   .semi-card-container{
+       width: 100%;
    }
 
 }
